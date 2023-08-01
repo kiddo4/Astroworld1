@@ -135,7 +135,7 @@ class PostView1 extends StatelessWidget {
                             GestureDetector(
                               onTap: () {
                                 Navigator.of(context).push(MaterialPageRoute(
-                                    builder: (context) => const Comments()));
+                                    builder: (context) => Comments()));
                               },
                               child: Iconify(
                                 Majesticons.message_line,

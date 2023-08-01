@@ -114,6 +114,9 @@ class _AstroWorldState extends State<AstroWorld> {
                           style: TextStyle(
                             fontSize: 15,
                             fontWeight: FontWeight.w400,
+                            color: Theme.of(context).brightness == Brightness.dark
+                                ? Colors.white
+                                : purple100,
                           ),
                         ),
                       ],
