@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:astrtwig/colors.dart';
 class StoryItem extends StatelessWidget {
   final String image;
   final String username;
@@ -27,6 +27,9 @@ class StoryItem extends StatelessWidget {
                  style: TextStyle(
                    fontSize: 15,
                    fontWeight: FontWeight.w400,
+                   color: Theme.of(context).brightness == Brightness.dark
+                       ? Colors.white
+                       : purple100,
                  )
              )
            ],

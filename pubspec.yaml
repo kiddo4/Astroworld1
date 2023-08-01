@@ -92,6 +92,9 @@ flutter:
         - asset: assets/font/Kanit-Bold.ttf
           weight: 700
         - asset: assets/font/Kanit-Medium.ttf
+        - asset: assets/font/Kanit-Light.ttf
+          weight: 100
+        - asset: assets/font/Kanit-Thin.ttf
   # fonts:
   #   - family: Schyler
   #     fonts:
